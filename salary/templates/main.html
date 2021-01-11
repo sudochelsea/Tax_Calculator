@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css library-->
+   
+    <!-- <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"> -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
+    <!--custom css -->
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <label for="">Compute your net income,PAYE income tax and SSNIT deduction</label>
+        <div class="mini-container">
+            <p>Monthly net income</p><br>
+            <h1>GHC 70000.00</h1>
+        </div>
+        <hr>
+                <div>
+                    <form action="">
+                        
+                        <label for=""> Monthly Deductions </label><br>
+                        <input type="text" class="box" placeholder="Income Tax" readonly><br><br>
+                        <input type="text" class="box" placeholder="SSNIT deduction" readonly><br><br>
+                        <label for=""> Click here for a breakdown of deductions</label>
+                        <hr>
+                        <label for="">Enter Required Values </label><br>
+                        <input type="text" class="box" placeholder="Monthly Gross Income"><br><br>
+                        <input type="text" class="box" placeholder="Monthly allowances"><br><br>
+                        <input type="text" class="box" placeholder="Tax Relief"><br>
+                    </form>
+                </div>
+   </div>
+
+</body>
+<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+</html>
