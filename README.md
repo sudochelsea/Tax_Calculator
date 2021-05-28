@@ -55,3 +55,26 @@ To run this app, you will need to follow these 3 steps:
   
 
   - [Pipenv](https://pipenv-es.readthedocs.io/es/stable/)
+
+## Status
+Project is: in progress
+
+
+## Inspiration
+This project is based on the goal of improving my skills as a Software Engineer and the best way to improve is by building projects. I wanted to gain a deeper understanding of Django and Object-oriented programming in Python whiles I also contribute to the open-source community at the same time. I have learnt different technologies for the project and I keep on learning new skills as I add new features to the project.
+
+## Contact
+Created by Chelsea - feel free to contact me!
+
+## License
+You can check out the full license here
+
+This project is licensed under the terms of the MIT license.
+
+## Contributing
+Fork it()
+Create your feature branch (git checkout -b feature/fooBar)
+Commit your changes (git commit -am 'Add some fooBar')
+Push to the branch (git push origin feature/fooBar)
+Create a new Pull Request
+
